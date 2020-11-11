@@ -17,5 +17,5 @@ var app = express_1.default();
 app.use("/", express_1.default.static("./dist/www/"));
 var httpServer = http_1.default.createServer(app);
 var httpsServer = https_1.default.createServer({ key: privateKey, cert: certificate }, app);
-httpServer.listen(8080);
-httpsServer.listen(8443);
+httpServer.listen(80);
+httpsServer.listen(443);
