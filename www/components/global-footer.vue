@@ -13,7 +13,7 @@
             <a href="javascript:void(0);">销售政策</a>
             <a href="javascript:void(0);">法律信息</a>
         </div>
-        <div class="global-footer-copyright">Copyright © 2020 桔里农业有限公司，保留所有权利。</div>
+        <div class="global-footer-copyright">Copyright © 2020 南丰桔里农业有限公司，保留所有权利。</div>
         <div class="global-footer-license">
             <a class="mr-2" href="http://beian.miit.gov.cn/" target="_blank">京ICP备10214630号</a>
             <a class="mr-2" href="javascript:void(0);">营业执照</a>
