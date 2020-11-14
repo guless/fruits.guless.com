@@ -2,10 +2,3 @@
 /// @Copyright ~2020 ☜Samlv9☞ and other contributors
 /// @MIT-LICENSE | 6.0 | https://developers.guless.com/
 /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@import "@primer/css/index.scss";
-
-html,
-body { height: 100%; }
-html.noscroll,
-html.noscroll body { overflow: hidden !important; }
-ul { list-style: none; }

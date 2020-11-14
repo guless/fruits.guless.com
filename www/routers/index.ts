@@ -11,13 +11,23 @@ const routes: Array<RouteConfig> = [
     {
         path: "/",
         name: "index",
-        component: () => import(/* webpackChunkName: "index" */"../views/Index.vue"),
+        redirect: "/mandarin",
+    },
+    {
+        path: "/mandarin",
+        name: "mandarin",
+        component: () => import(/* webpackChunkName: "mandarin" */"../views/mandarin.vue"),
+    },
+    {
+        path: "/contact",
+        name: "contact",
+        component: () => import(/* webpackChunkName: "cart" */"../views/contact.vue"),
     },
 ];
 
 const router = new VueRouter({
-    mode: "history",
-    base: process.env.BASE_URL,
+    // mode: "history",
+    // base: process.env.BASE_URL,
     routes,
 });
 

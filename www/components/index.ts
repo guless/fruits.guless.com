@@ -2,10 +2,9 @@
 /// @Copyright ~2020 ☜Samlv9☞ and other contributors
 /// @MIT-LICENSE | 6.0 | https://developers.guless.com/
 /// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@import "@primer/css/index.scss";
+import Vue from "vue";
+import globalHeader from "./global-header.vue";
+import globalFooter from "./global-footer.vue";
 
-html,
-body { height: 100%; }
-html.noscroll,
-html.noscroll body { overflow: hidden !important; }
-ul { list-style: none; }
+Vue.component("global-header", globalHeader);
+Vue.component("global-footer", globalFooter);
