@@ -7,7 +7,7 @@
 <template>
 <div class="views-mandarin">
     <section class="swiper">
-        <div class="swiper-images"><img src="~@/assets/images/p4.jpg" width="100%" /></div>
+        <div class="swiper-images"><img src="~@/assets/images/p5.jpg" width="100%" /></div>
     </section>
     <section class="product mb-3">
         <header class="text-bold p-1 bg-gray border">产品信息：</header>
