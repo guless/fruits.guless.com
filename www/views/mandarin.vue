@@ -14,11 +14,11 @@
         <table class="product-table">
             <tr>
                 <td>品牌：桔里</td>
-                <td>名称：贡品蜜广</td>
+                <td>名称：贡品蜜广桔</td>
             </tr>
             <tr>
                 <td>重量：5KG/箱</td>
-                <td>售价：¥50元/箱</td>
+                <td>售价：¥60元/箱</td>
             </tr>
             <tr>
                 <td>产地：江西省南丰县</td>
@@ -41,7 +41,7 @@
                 <td>果肉：无籽无渣</td>
             </tr>
             <tr>
-                <td>果径：40mm ~ 60mm</td>
+                <td>果径：38mm ~ 50mm</td>
                 <td>国家标准：<a href="http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=A7AA45633FB268E97DF629D89ED019CE">[GB 19051-2008]</a></td>
             </tr>
         </table>
