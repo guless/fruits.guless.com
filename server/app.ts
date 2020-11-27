@@ -7,8 +7,8 @@ import http from "http";
 import https from "https";
 import express from "express";
 
-const privateKey = fs.readFileSync("./private/fruits.guless.com.key", "utf-8");
-const certificate = fs.readFileSync("./private/fruits.guless.com.pem", "utf-8");
+const privateKey = fs.readFileSync("./private/guless.com.key", "utf-8");
+const certificate = fs.readFileSync("./private/guless.com.pem", "utf-8");
 const app = express();
 
 app.use("/", express.static("./dist/www/"));
